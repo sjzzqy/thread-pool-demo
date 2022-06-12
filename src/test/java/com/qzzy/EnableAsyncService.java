@@ -22,7 +22,7 @@ public class EnableAsyncService {
 	public void mock() {
 		try {
 			Thread.sleep(6l);
-			System.out.println("=============mockmockmock====");
+			System.out.println("我是mock1");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -31,6 +31,6 @@ public class EnableAsyncService {
 
 	@Async
 	public void mock2() {
-		System.out.println("我是mock2mock2mock2mock2");
+		System.out.println("我是mock2");
 	}
 }
